@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="profile.css" />
+    <script src="profile.js"></script>
+  </head>
+  <body>
+  <div>
+    <div class="profile-title">
+    <h1><b>Hello! I'm Seunghoon</b></h1>
+    <img src="./me.JPG" width="40%" />
+    </div>
+    <div class="profile-info">
+    <h2>ℹ️  Information</h2>
+    <ul>
+      <li>Name: 최승훈</li>
+      <li>Age: 22</li>
+      <li>Affiliation: Kookmin Univ. Software(2022~)</li>
+      <li>Student ID: 20223152</li>
+    </ul>
+    <div class="profile-tmi">
+      <div id="fold" style="display: block;"> 
+        <a onclick="fold_toggle(document.getElementById('fold')); fold_toggle(document.getElementById('unfold')); return false;" href="#"><h4>🖱️  More Information(펼치기)</h4></a> 
+        </div> 
+        <div id="unfold" style="display: none;"> 
+        <a onclick="fold_toggle(document.getElementById('fold')); fold_toggle(document.getElementById('unfold')); return false;" href="#"><h4>🖱️  More Information(접기)</h4></a> 
+        <span style = "line-height:50%"><br></span>
+        <ul>
+            <li>Birth: 2003-01-23</li>
+            <li>Phone: 010-3348-9903</li>
+            <li>Residence: 경기도 광명시</li>
+            <li>MBTI: ENTP</li>
+            <li>Baekjoon Tier: Silver 2</li>
+            <li><strong>Interested in: KMU_WINK</strong></li>
+          </ul>
+        </div>
+    </div>
+    </div>
+    <hr />
+    <div class="profile-footer">
+    <h2>External Links</h2>
+    <a href="https://instagram.com/sh_c_2315"
+      ><img src="./instagram.jpeg" width="5%"
+    /></a>
+    <a href="https://github.com/CSH2315"
+      ><img src="./github.png" width="5%"
+    /></a>
+    <hr />
+    </div>
+  </body>
+</html>
